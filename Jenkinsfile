@@ -11,7 +11,7 @@ pipeline {
         stage('Build image') {
             steps {
                 script {
-                    app = docker.build("raj80dockerid/test")
+                    app = docker.build("akilash1224/test")
                 }
             }
         }
